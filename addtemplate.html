@@ -1,0 +1,188 @@
+<div class="add-entry-container">
+  <div class="form-header">
+    <h2>Neue Veranstaltung hinzufügen</h2>
+    <p class="form-description">Bitte fülle die folgenden Felder aus, um eine neue Veranstaltung zu erstellen.</p>
+  </div>
+
+  <div class="form-content">
+    <!-- Grundinformationen -->
+    <div class="form-section">
+      <h3 class="section-title">
+        <span class="section-icon">📅</span>
+        Grundinformationen
+      </h3>
+      
+      <div class="form-row">
+        <div class="form-group full-width required-field">
+          <label for="field_1_3">Titel</label>
+          <div class="field-wrapper">[[Titel]]</div>
+          <span class="field-hint">Der Haupttitel der Veranstaltung</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="field_1_4">Untertitel</label>
+          <div class="field-wrapper">[[Untertitel]]</div>
+          <span class="field-hint">Zusätzliche Beschreibung oder Motto</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="field_1_6">Beschreibung</label>
+          <div class="field-wrapper">[[Inhalt]]</div>
+          <span class="field-hint">Detaillierte Beschreibung der Veranstaltung</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zeitinformationen -->
+    <div class="form-section">
+      <h3 class="section-title">
+        <span class="section-icon">🕐</span>
+        Datum und Uhrzeit
+      </h3>
+      
+      <div class="form-row three-columns">
+        <div class="form-group required-field">
+          <label for="field_1_14">Datum</label>
+          <div class="field-wrapper">[[Datum]]</div>
+          <span class="field-hint">Format: YYYY-MM-DD</span>
+        </div>
+
+        <div class="form-group required-field">
+          <label for="field_1_1">Startuhrzeit</label>
+          <div class="field-wrapper">[[Startuhrzeit]]</div>
+          <span class="field-hint">Format: HH:MM</span>
+        </div>
+
+        <div class="form-group required-field">
+          <label for="field_1_2">Enduhrzeit</label>
+          <div class="field-wrapper">[[Enduhrzeit]]</div>
+          <span class="field-hint">Format: HH:MM</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Organisatorisches -->
+    <div class="form-section">
+      <h3 class="section-title">
+        <span class="section-icon">⚙️</span>
+        Organisatorisches
+      </h3>
+      
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="field_1_11">Zielgruppe</label>
+          <div class="field-wrapper">[[Zielgruppe]]</div>
+          <span class="field-hint">z.B. Interessierte, Einsteiger, Fortgeschrittene, Hauptamtliche</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="field_1_12">Veranstaltungstyp</label>
+          <div class="field-wrapper">[[Veranstaltungstyp]]</div>
+          <span class="field-hint">z.B. Webinar, Workshop, Vortrag</span>
+        </div>
+      </div>
+
+      <div class="form-row two-columns">
+        <div class="form-group">
+          <label for="field_1_5">Seminarnummer</label>
+          <div class="field-wrapper">[[Seminarnummer]]</div>
+          <span class="field-hint">Interne Seminarnummer (optional)</span>
+        </div>
+
+        <div class="form-group">
+          <label for="field_1_13">Link zur Anmeldung</label>
+          <div class="field-wrapper">[[Link zur Anmeldung]]</div>
+          <span class="field-hint">URL zum Anmeldeformular</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Referent*innen -->
+    <div class="form-section">
+      <h3 class="section-title">
+        <span class="section-icon">👤</span>
+        Referent*innen
+      </h3>
+      
+      <!-- Referent 1 -->
+      <div class="referent-group">
+        <h4 class="referent-title">Referent*in 1</h4>
+        <div class="form-row three-columns">
+          <div class="form-group">
+            <label for="field_1_7">Name</label>
+            <div class="field-wrapper">[[Referent*in 1]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_8">Info/Funktion</label>
+            <div class="field-wrapper">[[Info Referent*in 1]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_9">Kontakt</label>
+            <div class="field-wrapper">[[Kontakt Referent*in 1]]</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referent 2 -->
+      <div class="referent-group">
+        <h4 class="referent-title">Referent*in 2 <span class="optional-badge">(optional)</span></h4>
+        <div class="form-row three-columns">
+          <div class="form-group">
+            <label for="field_1_10">Name</label>
+            <div class="field-wrapper">[[Referent*in 2]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_11">Info/Funktion</label>
+            <div class="field-wrapper">[[Info Referent*in 2]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_12">Kontakt</label>
+            <div class="field-wrapper">[[Kontakt Referent*in 2]]</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Referent 3 -->
+      <div class="referent-group">
+        <h4 class="referent-title">Referent*in 3 <span class="optional-badge">(optional)</span></h4>
+        <div class="form-row three-columns">
+          <div class="form-group">
+            <label for="field_1_13">Name</label>
+            <div class="field-wrapper">[[Referent*in 3]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_14">Info/Funktion</label>
+            <div class="field-wrapper">[[Info Referent*in 3]]</div>
+          </div>
+          <div class="form-group">
+            <label for="field_1_15">Kontakt</label>
+            <div class="field-wrapper">[[Kontakt Referent*in 3]]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zusätzliche Informationen -->
+    <div class="form-section">
+      <h3 class="section-title">
+        <span class="section-icon">📝</span>
+        Zusätzliche Informationen
+      </h3>
+      
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="field_1_14">Bemerkung</label>
+          <div class="field-wrapper">[[Bemerkung]]</div>
+          <span class="field-hint">Interne Notizen oder Hinweise</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

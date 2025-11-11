@@ -1,0 +1,100 @@
+<div class="event-entry single-view" 
+     data-entry-id="##id##" 
+     data-datum="[[Datum]]" 
+     data-startuhrzeit="[[Startuhrzeit]]" 
+     data-enduhrzeit="[[Enduhrzeit]]" 
+     data-zielgruppe="[[Zielgruppe]]" 
+     data-titel="[[Titel]]" 
+     data-untertitel="[[Untertitel]]" 
+     data-referent1="[[Referent*in 1]]" 
+     data-referent1-info="[[Info Referent*in 1]]" 
+     data-referent1-kontakt="[[Kontakt Referent*in 1]]" 
+     data-referent2="[[Referent*in 2]]" 
+     data-referent2-info="[[Info Referent*in 2]]" 
+     data-referent2-kontakt="[[Kontakt Referent*in 2]]" 
+     data-referent3="[[Referent*in 3]]" 
+     data-referent3-info="[[Info Referent*in 3]]" 
+     data-referent3-kontakt="[[Kontakt Referent*in 3]]" 
+     data-veranstaltungstyp="[[Veranstaltungstyp]]" 
+     data-seminarnummer="[[Seminarnummer]]" 
+     data-bemerkung="[[Bemerkung]]">
+  
+  <div class="event-card single-event-card">
+    <!-- Zielgruppe Badge -->
+    <div class="event-zielgruppe">
+      <span class="zielgruppe-badge event-audience">[[Zielgruppe]]</span>
+    </div>
+    
+    <!-- Header mit Datum/Zeit und Aktionen -->
+    <div class="event-header">
+      <div class="event-date-time">
+        <div class="event-date">[[Datum]]</div>
+        <div class="event-time">[[Startuhrzeit]] – [[Enduhrzeit]] Uhr</div>
+        <div class="event-type">[[Veranstaltungstyp]]</div>
+      </div>
+      
+      <div class="event-actions">
+        <button class="favorite-btn" data-entry-id="##id##" aria-label="Als Favorit markieren">
+          <span class="star-icon">☆</span>
+        </button>
+        <button class="ics-download-btn" data-entry-id="##id##" aria-label="ICS herunterladen">
+          🗓️
+        </button>
+        <span class="edit-btn-wrapper">##edit##</span>
+      </div>
+    </div>
+    
+    <!-- Event Body -->
+    <div class="event-body">
+      <h1 class="event-title">[[Titel]]</h1>
+      <p class="event-subtitle">[[Untertitel]]</p>
+      <div class="event-description">[[Inhalt]]</div>
+      
+      <!-- Referent*innen Section -->
+      <div class="event-referenten-section">
+        <h3 class="section-title">Referent*innen</h3>
+        <div class="referenten-list">
+          <div class="referent-item">
+            <div class="referent-name">[[Referent*in 1]]</div>
+            <div class="referent-info">[[Info Referent*in 1]]</div>
+            <div class="referent-contact">[[Kontakt Referent*in 1]]</div>
+          </div>
+          <div class="referent-item">
+            <div class="referent-name">[[Referent*in 2]]</div>
+            <div class="referent-info">[[Info Referent*in 2]]</div>
+            <div class="referent-contact">[[Kontakt Referent*in 2]]</div>
+          </div>
+          <div class="referent-item">
+            <div class="referent-name">[[Referent*in 3]]</div>
+            <div class="referent-info">[[Info Referent*in 3]]</div>
+            <div class="referent-contact">[[Kontakt Referent*in 3]]</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Details Section -->
+      <div class="event-details-section">
+        <h3 class="section-title">Weitere Informationen</h3>
+        <div class="event-details">
+          <div class="detail-item">
+            <span class="detail-label">Seminarnummer:</span>
+            <span class="detail-value">[[Seminarnummer]]</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Veranstaltungstyp:</span>
+            <span class="detail-value">[[Veranstaltungstyp]]</span>
+          </div>
+          <div class="detail-item" style="display:none;">
+            <span class="detail-label">Bemerkung:</span>
+            <span class="detail-value">[[Bemerkung]]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer mit Anmelde-Link -->
+    <div class="event-footer">
+      <div class="event-anmeldung">[[Link zur Anmeldung]]</div>
+    </div>
+  </div>
+</div>

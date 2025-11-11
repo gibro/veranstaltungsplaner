@@ -1,0 +1,59 @@
+<div class="event-entry" 
+     data-entry-id="##id##" 
+     data-datum="[[Datum]]" 
+     data-startuhrzeit="[[Startuhrzeit]]" 
+     data-enduhrzeit="[[Enduhrzeit]]" 
+     data-zielgruppe="[[Zielgruppe]]" 
+     data-titel="[[Titel]]" 
+     data-untertitel="[[Untertitel]]" 
+     data-referent1="[[Referent*in 1]]" 
+     data-referent1-info="[[Info Referent*in 1]]" 
+     data-referent2="[[Referent*in 2]]" 
+     data-referent2-info="[[Info Referent*in 2]]" 
+     data-referent3="[[Referent*in 3]]" 
+     data-referent3-info="[[Info Referent*in 3]]">
+  
+  <div class="event-card">
+    <!-- Zielgruppe Badge -->
+    <div class="event-zielgruppe">
+      <span class="zielgruppe-badge event-audience">[[Zielgruppe]]</span>
+    </div>
+    
+    <!-- Header mit Datum/Zeit und Aktionen -->
+    <div class="event-header">
+      <div class="event-date-time">
+        <div class="event-date">[[Datum]]</div>
+        <div class="event-time">[[Startuhrzeit]] – [[Enduhrzeit]] Uhr</div>
+      </div>
+      
+      <div class="event-actions">
+        <button class="favorite-btn" data-entry-id="##id##" aria-label="Als Favorit markieren">
+          <span class="star-icon">☆</span>
+        </button>
+        <button class="ics-download-btn" data-entry-id="##id##" aria-label="ICS herunterladen">
+          🗓️
+        </button>
+      </div>
+    </div>
+    
+    <!-- Referent*innen -->
+    <div class="event-referenten">
+      [[Referent*in 1]][[Referent*in 2]][[Referent*in 3]]
+    </div>
+    <div class="event-referenten-info" style="display:none;">
+      [[Info Referent*in 1]]|[[Info Referent*in 2]]|[[Info Referent*in 3]]
+    </div>
+    
+    <!-- Event Body -->
+    <div class="event-body">
+      <h3 class="event-title">[[Titel]]</h3>
+      <p class="event-subtitle">[[Untertitel]]</p>
+      <div class="event-description">[[Inhalt]]</div>
+    </div>
+    
+    <!-- Footer mit Anmelde-Link -->
+    <div class="event-footer">
+      <div class="event-anmeldung">[[Link zur Anmeldung]]</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+<div class="veranstaltungspicker-container">
+  <div class="veranstaltungspicker-header">
+    <h1>Veranstaltungen</h1>
+    <div class="favoriten-actions">
+      <button type="button" id="export-favorites" class="btn-export-favorites">
+        Favoriten als ICS exportieren
+      </button>
+      <span id="favorite-count" class="favorite-count"></span>
+    </div>
+  </div>
+  
+  <div class="filter-container" id="filter-container">
+    <div class="filter-form">
+      <div class="filter-group">
+        <label for="filter-tag">Tag:</label>
+        <select id="filter-tag" name="tag" class="filter-select">
+          <option value="">Alle</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="filter-zielgruppe">Zielgruppe:</label>
+        <select id="filter-zielgruppe" name="zielgruppe" class="filter-select">
+          <option value="">Alle</option>
+          <option value="Interessierte">Interessierte</option>
+          <option value="Einsteiger">Einsteiger</option>
+          <option value="Fortgeschrittene">Fortgeschrittene</option>
+          <option value="Hauptamtliche">Hauptamtliche</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="filter-startzeit">Startzeit:</label>
+        <select id="filter-startzeit" name="startzeit" class="filter-select">
+          <option value="">Alle</option>
+          <option value="09">9 Uhr</option>
+          <option value="11">11 Uhr</option>
+          <option value="13">13 Uhr</option>
+          <option value="14">14 Uhr</option>
+          <option value="16">16 Uhr</option>
+          <option value="18">18 Uhr</option>
+        </select>
+      </div>
+      
+      <div class="filter-group filter-checkbox-group">
+        <label for="filter-favoriten" class="checkbox-label">
+          <input type="checkbox" id="filter-favoriten" name="favoriten" class="filter-checkbox">
+          Nur Favoriten anzeigen
+        </label>
+      </div>
+    </div>
+  </div>
+  
+  <div id="events-container" class="events-columns-container">
