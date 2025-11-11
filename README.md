@@ -153,7 +153,7 @@ Der **Veranstaltungspicker** ist eine Moodle Database Activity, das eine OberflÃ
 
 ### Schritt 2: Datenbankvorlage importieren
 
-1. zip Datei aus dem gibthub generieren und unter Datenbankvorlage hochladen
+1. zip Datei aus dem gibthub generieren (ohne Readme und Licence) und unter Datenbankvorlage hochladen
 
 **Template-Dateien:**
 - `listtemplateheader.html` â†’ **Listenvorlagen-Kopfzeile**
